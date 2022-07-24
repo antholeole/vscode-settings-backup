@@ -1,0 +1,45 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "cmd+o cmd+t",
+        "command": "extension.jumpTest",
+        "when": "editorIsOpen"
+    },
+    {
+        "key": "ctrl+o t",
+        "command": "-extension.jumpTest",
+        "when": "editorIsOpen"
+    },
+    {
+        "key": "cmd+t",
+        "command": "-better-tests.goToSourceFile",
+        "when": "resourceLangId == 'dart' && resourceFilename =~ /_test.dart/"
+    },
+    {
+        "key": "cmd+t",
+        "command": "-better-tests.goToTestFile",
+        "when": "resourceLangId == 'dart' && resourceFilename =~ /(?<!_test)\\.dart/"
+    },
+    {
+        "key": "cmd+t",
+        "command": "dart.goToTestOrImplementationFile"
+    },
+    {
+        "key": "cmd+r cmd+t",
+        "command": "workbench.action.tasks.test"
+    },
+    {
+        "key": "cmd+t cmd+r",
+        "command": "dart.rerunLastTestDebugSession"
+    },
+    {
+        "key": "shift+f5",
+        "command": "-cmake.launchTarget",
+        "when": "cmake:enableFullFeatureSet && !cmake:hideDebugCommand && !inDebugMode"
+    },
+    {
+        "key": "cmd+k cmd+i",
+        "command": "-editor.debug.action.showDebugHover",
+        "when": "editorTextFocus && inDebugMode"
+    }
+]

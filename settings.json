@@ -1,0 +1,57 @@
+{
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    },
+    "files.associations": {
+        ".nycrc.json": "jsonc"
+    },
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": true,
+    "terminal.integrated.scrollback": 10000,
+    "tabnine.experimentalAutoImports": true,
+    "dart.warnWhenEditingFilesInPubCache": false,
+    "git.autofetch": true,
+    "dart.openDevTools": "never",
+    "dart.debugExternalPackageLibraries": true,
+    "debug.javascript.autoAttachFilter": "disabled",
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "latex-workshop.view.pdf.viewer": "tab",
+    "notebook.lineNumbers": "on",
+    "rust-analyzer.procMacro.enable": true,
+    "prolog.executablePath": "/opt/homebrew/bin/swipl",
+    "git.ignoreRebaseWarning": true,
+    "dart.flutterSdkPath": "/Users/anthony/Programs/flutter_hacker",
+    "editor.accessibilitySupport": "off",
+    "cmake.configureOnOpen": false,
+    "terminal.integrated.profiles.osx":{
+        "bash": {
+            "path": "bash",
+            "args": [
+                "-l"
+            ],
+            "icon": "terminal-bash"
+        },
+    },
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "debug.onTaskErrors": "showErrors",
+    "rust-analyzer.inlayHints.chainingHints.enable": false,
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "rust-analyzer.procMacro.ignored": {
+
+    },
+    "files.trimTrailingWhitespace": true,
+}
